@@ -1,3 +1,1 @@
-# Wall of Developers
-
-This is the wall of developers, displaying some of the developers who were in SPHF (Swahilipot Hub Foundation)
+i am ongoing, dedicated, and open- minded. i get across to people to adjust to changes with ease. i believe that a person should work on developing their professional skills and learning new things all the time
