@@ -1,3 +1,3 @@
-# Wall of Developers
-
-This is the wall of developers, displaying some of the developers who were in SPHF (Swahilipot Hub Foundation)
+"# Isaac Parkire" 
+"Aspiring Cybersecurity Analyst at Swahilipot Hub." 
+"Eager to grow, collaborate, and make an impact through technology and security." 
