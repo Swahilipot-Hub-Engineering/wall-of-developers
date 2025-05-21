@@ -1,33 +1,41 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg
+import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit eroora are many <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li onClick={() => setActiveSection('home')}>Home</li>
+              <li onClick={() => setActiveSection('about')}>About Event</li>
+              <li onClick={() => setActiveSection('contacts')}>Contacts</li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Contact Info</h3>
+            <p>info@swahilipothub.com</p>
+            <p>+254 712 345 678</p>
+            <p>Mombasa, Kenya</p>
+          </div>
+          <div className="footer-section">
+            <h3>Follow Us</h3>
+            <p>Twitter: @swahilipot</p>
+            <p>Instagram: @swahilipothub</p>
+            <p>Facebook: Swahilipot Hub</p>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; 2023 Swahilipot Hub. All Rights Reserved.</p>
+        </div>
+      </footer>
+
     </>
   )
 }
