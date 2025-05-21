@@ -1,9 +1,13 @@
+
 import "./App.css";
-import Hackathon from "./hackathon";
-import InfoPanel from "./InfoPanel";
-import Navbar from "./Navbar";
+import {Hackathon} from "./hackathon";
+import {InfoPanel} from "./InfoPanel";
+import {Navbar} from "./Navbar";
 import { Footer } from "./Footer";
 import { Pitches } from "./Pitches";
+import {About } from "./About
+import { Contact } from "./Contact";
+      
 function App() {
   return (
     <>
@@ -12,6 +16,9 @@ function App() {
       <Hackathon />
       <Pitches />
       <Footer />
+    <About />
+    <Contact />
+
     </>
   );
 }
