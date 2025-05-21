@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 // No need for reactLogo or viteLogo for this content, so they are removed.
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
