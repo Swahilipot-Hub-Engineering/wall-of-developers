@@ -1,4 +1,5 @@
-import { Hackathon } from './Hackathon'
+
+import { Hackathon }from './Hackathon'
 import './App.css'
 import Header from './header'
 import { About } from './About'
@@ -6,20 +7,21 @@ import Navbar from './navbar'
 import Peeches from './peeches'
 import { Footer } from './footer'
 import Contact from './Contact'
-
+import InfoPanel from './infoPanel'
 function App() {
   
   return (
     <>
+
+      <Navbar />
       <Header />
       <About />
-      <Navbar />
-      <Peeches />
-      <Peeches />
+      <InfoPanel />
+      /<Peeches />
       <Hackathon />
-      <Footer />
       <Contact />
-    
+      <Footer />
+
     </>
   )
 }

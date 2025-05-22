@@ -1,3 +1,4 @@
+
 /* peeches.css */
 
 .slides-container {
@@ -79,7 +80,7 @@
   position: relative;
 }
 .about ul li::before {
-  content: '✔';
+
   position: absolute;
   left: 0;
   color: #3b82f6;
