@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 // No need for reactLogo or viteLogo for this content, so they are removed.
 // import reactLogo from './assets/react.svg'
@@ -144,6 +145,23 @@ function App() {
         )}
       </main>
     </div>
+
+import "./App.css";
+import Hackathon from "./hackathon";
+import InfoPanel from "./InfoPanel";
+import Navbar from "./Navbar";
+import { Footer } from "./Footer";
+import { Pitches } from "./Pitches";
+function App() {
+  return (
+    <>
+      <Navbar />
+      <InfoPanel />
+      <Hackathon />
+      <Pitches />
+      <Footer />
+    </>
+
   );
 }
 
