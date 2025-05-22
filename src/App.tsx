@@ -7,9 +7,13 @@ import { useState } from 'react';
 // import './App.css';
 
 function App() {
+
+ 
+
   // useState hook to manage which section is currently active.
   // 'home' is set as the default active section.
   const [activeSection, setActiveSection] = useState('home');
+
 
   return (
     // Main container for the entire application.
@@ -146,22 +150,10 @@ function App() {
       </main>
     </div>
 
-import "./App.css";
-import Hackathon from "./hackathon";
-import InfoPanel from "./InfoPanel";
-import Navbar from "./Navbar";
-import { Footer } from "./Footer";
-import { Pitches } from "./Pitches";
-function App() {
-  return (
-    <>
-      <Navbar />
-      <InfoPanel />
-      <Hackathon />
-      <Pitches />
-      <Footer />
-    </>
+    
 
+
+    
   );
 }
 
