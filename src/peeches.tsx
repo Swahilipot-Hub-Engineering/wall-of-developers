@@ -1,4 +1,4 @@
-// peeches.
+
 import './peeches.css';
 
 const Peeches = () => {
@@ -32,7 +32,9 @@ const Peeches = () => {
           <p>Optimized for both desktop and mobile using Tailwind and Flexbox layout techniques.</p>
         </div>
         <div className="subsection">
-          <h3>⚙️ Tech Stack</h3>
+
+          <h3>⚙ << Tech Stack</h3>
+
           <p>Built using React, TypeScript, Vite, and TailwindCSS for rapid development and scalability.</p>
         </div>
         <div className="subsection">

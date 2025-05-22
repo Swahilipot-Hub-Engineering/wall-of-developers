@@ -1,3 +1,4 @@
+
 import { Hackathon }from './Hackathon'
 import './App.css'
 import Header from './header'
@@ -11,6 +12,7 @@ function App() {
   
   return (
     <>
+
       <Navbar />
       <Header />
       <About />
@@ -19,6 +21,7 @@ function App() {
       <Hackathon />
       <Contact />
       <Footer />
+
     </>
   )
 }

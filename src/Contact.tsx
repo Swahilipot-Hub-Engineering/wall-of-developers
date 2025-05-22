@@ -1,4 +1,4 @@
-// src/components/Contact.jsx
+
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 function Contact() {
@@ -24,7 +24,6 @@ function Contact() {
   );
 }
 
-const styles = {
   section: {
     padding: '20px',
     textAlign: 'center',
