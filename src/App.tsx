@@ -1,5 +1,5 @@
 import './App.css';
-import sphLogo from '/src/assets/swahilipot-logo.jpg';
+import sphLogo from '/src/assets/swahilipot-logo.png';
 import React from 'react';
 import { useState } from 'react';
 
