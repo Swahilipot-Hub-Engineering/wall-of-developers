@@ -1,70 +1,98 @@
-
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      {/* Home Section */}
-      <section className="section">
-        <h1>Tech Innovation Summit 2025</h1>
-        <p className='par1'>
-          Join us for the most anticipated tech event of the year at Swahilipot Hub! 
-          This summit brings together industry leaders, innovators, and tech enthusiasts 
-          for a day of learning, networking, and collaboration.
+      {/* Hero Section */}
+      <section id="home" className="section hero">
+        <h1>Pwani Innovation Week 2025</h1>
+        <p className="subtitle">
+          Join us at Swahilipot Hub for the biggest Tech and Innovation event in the Coast region!
         </p>
-        <div className="highlight">
-          <h3>Why Attend?</h3>
-          <ul>
-            <li>Learn from industry experts</li>
-            <li>Network with like-minded professionals</li>
-            <li>Discover new technologies</li>
-            <li>Find potential collaborators iokt</li>
-          </ul>
+        <div className="event-dates">
+          <p className="date-range">
+            <span className="date-icon"></span> MAY 25-30, 2025
+          </p>
+          <p className="location">
+            <span className="location-icon"></span> Swahilipot Hub, Mombasa
+          </p>
         </div>
+        <button className="cta-button">Join Today</button>
       </section>
 
       {/* About Section */}
-      <section className="section">
-        <h2>About The Event</h2>
-        <div className="details">
-          <h3>Tech Innovation Summit 2025</h3>
-          <p className="date">November 15-17, 2025 | Swahilipot Hub, Mombasa</p>
-          
-          <p className='par2'>
-            The Tech Innovation Summit is a 3-day immersive experience designed to 
-            showcase cutting-edge technologies and foster innovation in Kenya's tech ecosystem.
-          </p>
-          
-          <h4>What to Expect</h4>
-          <ul>
-            <li>Keynote Speeches from industry leaders</li>
-            <li>Hands-on workshops</li>
-            <li>Panel discussions on tech trends</li>
-            <li>Startup showcase</li>
-            <li>Networking sessions</li>
-          </ul>
-          
-          <h4>About Swahilipot Hub</h4>
+      <section id="about" className="section">
+        <h2>About Pwani Innovation Week, 2025</h2>
+        <div className="about-content">
           <p>
-            Mombasa's premier innovation hub providing space for creatives and tech 
-            enthusiasts to collaborate, learn, and grow since 2020.
+            Pwani Innovation Week (PIW) is an annual event held at Swahilipot Hub, Mombasa, 
+            bringing together Innovators, Entrepreneurs, and Tech enthusiasts. 
+            The week-long event features Pitching, hackathons, Panel sessions, 
+            and showcases of cutting-edge technology.
           </p>
+          <div className="highlight-box">
+            <h3>Why Attend?</h3>
+            <ul>
+              <li>Meet industry leaders & startups</li>
+              <li>Participate in hands-on workshops</li>
+              <li>Network with investors & mentors</li>
+              <li>Showcase your innovations</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      {/* Contacts Section */}
-      <section className="section">
-        <h2>Contact Us</h2>
-        <div className="contacts">
-          <div>
-            <h4>General Inquiries</h4>
-            <p>Email: info@swahilipothub.com</p>
-            <p>Phone: +254 712 345 678</p>
+      {/* Events Section */}
+      <section id="events" className="section">
+        <h2>Event Highlights</h2>
+        <div className="events-grid">
+          <div className="event-card">
+            <img 
+              src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+              alt="Hackathon" 
+              className="event-card-image"
+            />
+            <div className="event-card-content">
+              <h3>Hackathon</h3>
+              <p>12-hour coding challenge to solve real-world problems.</p>
+            </div>
           </div>
-          <div>
-            <h4>Location</h4>
-            <p>Swahilipot Hub, Mombasa</p>
-            <p>Near Treasury Square</p>
+          
+          <div className="event-card">
+            <img 
+              src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+              alt="Startup Pitch" 
+              className="event-card-image"
+            />
+            <div className="event-card-content">
+              <h3>Startup Pitch</h3>
+              <p>Early-stage startups present to investors.</p>
+            </div>
+          </div>
+          
+          <div className="event-card">
+            <img 
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+              alt="Tech Workshops" 
+              className="event-card-image"
+            />
+            <div className="event-card-content">
+              <h3>Tech Workshops</h3>
+              <p>Learn AI, Blockchain, Web Dev & more.</p>
+            </div>
+          </div>
+          
+          <div className="event-card">
+            <img 
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+              alt="Networking Mixer" 
+              className="event-card-image"
+            />
+            <div className="event-card-content">
+              <h3>Networking Mixer</h3>
+              <p>Connect with industry professionals and Tech Gurus.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -73,45 +101,3 @@ function App() {
 }
 
 export default App;
-
-import { useState } from 'react'
-import './App.css'
-
-function App() {
-  const [activeSection, setActiveSection] = useState('home');
-
-  return (
-     <div className="app">
-      <nav className="navbar">
-        <div className="nav-container">
-          <div className="logo">Swahilipot Hub</div>
-          <ul className="nav-links">
-            <li 
-              className={activeSection === 'home' ? 'active' : ''}
-              onClick={() => setActiveSection('home')}
-            >
-              Home
-            </li>
-            <li 
-              className={activeSection === 'about' ? 'active' : ''}
-              onClick={() => setActiveSection('about')}
-            >
-              About Event
-            </li>
-            <li 
-              className={activeSection === 'contacts' ? 'active' : ''}
-              onClick={() => setActiveSection('contacts')}
-            >
-              Contacts
-            </li>
-          </ul>
-        </div>
-      </nav>
-</div>
-
-      
-  );
-}
-
-export default App;
-
