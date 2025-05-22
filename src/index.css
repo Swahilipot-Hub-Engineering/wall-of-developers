@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --primary-color: #dd8d53;
+  --text-color: #ffffff;
+  --background-color: #dd8d53;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbar {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.navbar .navbar-logo {
+    height: 250px;
+    width: 250px;
+}
+
+.navbar .navbar-logo img {
+    width: 100%;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links .links {
+    color: #000;
+    font-weight: 'bold';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero .hero-image {
+    padding: 30px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px; /* Reduced gap between images */
+}
+
+.grid img {
+    width: 200px; /* Increased size */
+    height: 200px; /* Increased size */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlights {
+    list-style: none;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
