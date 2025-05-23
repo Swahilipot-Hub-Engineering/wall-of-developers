@@ -1,22 +1,9 @@
-
 import './App.css';
 import sphLogo from '/src/assets/swahilipot-logo.png';
 import React from 'react';
 import { useState } from 'react';
 
 function App() {
-
-
-import { useState } from 'react';
-// No need for reactLogo or viteLogo for this content, so they are removed.
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// No App.css needed if using Tailwind extensively, but can be kept for global overrides.
-// import './App.css';
-
-function App() {
-
- 
 
   // useState hook to manage which section is currently active.
   // 'home' is set as the default active section.
