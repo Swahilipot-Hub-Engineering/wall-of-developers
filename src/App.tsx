@@ -43,7 +43,7 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="section">
-        <h2>About Pwani Innovation Week</h2>
+        <h2>About Pwani Innovation Week waah</h2>
         <div className="about-content">
           <p>
             Pwani Innovation Week (PIW) is an annual event held at Swahilipot Hub, Mombasa, 
