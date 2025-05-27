@@ -1,0 +1,1 @@
+Hi there! I'm Mike, an Android and Web developer I'm currently pursuing a BSc in Computer Science at the Technical University of Mombasa.
